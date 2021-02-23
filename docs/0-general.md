@@ -8,6 +8,10 @@ author: Geir Aalberg
 # Generelle ressurser
 
 Disse produktene kan være nyttige for alle caser. Data fra disse utgjør størsteparten av det som vises på Yr.
+Med unntak av Frost kan alle nås via in2000-apiproxy; for Frost er det satt opp en egen proxy dersom dere ønsker å bruke denne.
+Det er ikke nødvendig å bruke proxy for Havvarsel-Frost (case 1).
+
+**NB: IFI-proxyene håndterer ikke `If-Modified-Since`.** Ignorer alt som står om dette i Terms of Service og HOWTO.
 
 ## Locationforecast
 

@@ -12,8 +12,7 @@ Dette er en oversikt over ressurser som studentene kan bruke på de forskjellige
 ## Generelt
 
 - [Betingelser for bruk av APIet](https://docs.api.met.no/doc/TermsOfService).
-  Bruk IFI-proxy mot APIet så slipper dere å tenke på autentisering og unngår
-  throttling, og vi kan spore trafikken lettere.
+  Bruk IFI-proxy mot APIet så slipper dere å tenke på autentisering, throttling og `If-Modified-Since`, og vi kan spore trafikken lettere.
 - [Start her](https://docs.api.met.no/doc/GettingStarted): Test ut APIet fra kommandolinjen
 - [Generell bruk av APIet](https://docs.api.met.no/doc/usage): Hvordan APIet fungerer, statuskoder o.l.
 - [FAQ](https://docs.api.met.no/doc/FAQ): Ofte stilte spørsmål ("hvorfor fungerer ikke...")
