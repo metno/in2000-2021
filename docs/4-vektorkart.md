@@ -15,23 +15,45 @@ og dere skal lage en klient for denne. Det finnes har mange mulige datakilder, f
 - temperatur, vind og nedbør i 6-timesoppløsning for hele verden
 - nedbørsskyer i tilnærmet sanntid (nåvarsel)
 
-* Kontakt: Børge Moe
-* Primære datakilder: <https://test.openmaps.met.no/in2000/map/services>
-* Sekundære datakilder: Farevarsler?
+Mulige ideer:
 
-Kartserveren leverer vektordata på mapbox format (protobuf) samt json metadata. Klienten kan bruke Javascript eller native Mapbox-bibliotek under Kotlin. Teamene kan selv velge bakgrunnskart (vi anbefaler OpenStreetMap) og må rendre datalagene oppå dette. Dette krever noe kjennskap til forskjellige kartprojeksjoner og forskjell på inner/outer polygon (hvilken vei de roterer), se dokumentasjon.
+- Nedbørskart à la Yr med animerte regnbyger
+- Vis temperaturkart for hele verden for å planlegge hvor man bør dra på sommerferie (post-Corona)
+- Sykkelkart for Oslo med sykkelstier og fare for regn
 
-Kilder:
+Kartserveren leverer vektordata på mapbox format (protobuf) samt JSON metadata.
+Klienten kan bruke Javascript eller native Android Mapbox-bibliotek (ikke testet under Kotlin).
+Teamene kan selv velge bakgrunnskart (vi anbefaler OpenStreetMap) og må rendre
+datalagene oppå dette.
 
-- <https://test.openmaps.met.no/in2000/map/> (testserver)
-- <https://test.openmaps.met.no/in2000/map/services> (testserver)
-- <https://gitlab.met.no/yr-maps/maps-frontend-2020/> (intern kodebase)
+Dette kreves at man setter seg litt inn i forskjellige kartprojeksjoner og
+forskjellen på inner/outer polygon (hvilken vei de roterer), se dokumentasjon.
 
-Mapbox:
+## Datakilder
+
+Primær (obligatorisk):
+
+- [Testserver](https://test.openmaps.met.no/in2000/map/services) for IN2000
+  - <https://test.openmaps.met.no/in2000/map/> (prototype på webklient)
+  - <https://test.openmaps.met.no/in2000/map/services> (API)
+  - <https://gitlab.met.no/yr-maps/maps-frontend-2020/> (intern kodebase)
+
+Sekundære (valgfritt):
+
+- Locationforecast
+- Nedbørskart
+- MetAlerts
+- Sykkelstier med koordinater fra Oslo Kommune
+
+## Dokumentasjon
+
+Mapbox protokoll og biblioteker:
 
  - Vector tile specification: <https://github.com/mapbox/vector-tile-spec/>
  - Native bibliotek for Android og andre OS (iOS/MacOS): <https://github.com/mapbox/mapbox-gl-native>
- - Javascript:
+ - Javascript biblioteker:
    - Mapbox GL <https://github.com/mapbox/mapbox-gl-js>
    - Openlayers <https://openlayers.org/>
    - Leaflet <https://leafletjs.com/>
+
+Kontakt: [Børge Moe](mailto:borgem@met.no)

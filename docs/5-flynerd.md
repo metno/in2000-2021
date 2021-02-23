@@ -7,14 +7,28 @@ author: Geir Aalberg
 
 # 5. Flynerd-app
 
-Lage en app som viser fly i lufta over Norge samt værforhold på flyplasser. Live
-flight data kan hentes gratis fra fx OpenSky. Aktuelle MET-apier inkluderer:
+Lag en app for alle som er hekta på fly! Mulig eksempler på bruksområde:
+
+- Vis fly i lufta over Norge. Live flight data kan hentes gratis fra fx OpenSky
+- Vis værforhold på flyplasser (TafMetar dekker hele verden)
+- Vis vertikalsnitt på enkelte flyruter (NLAroutes, Verticalprofile)
+
+## Inspirasjonskilder:
+
+- <https://www.flightradar24.com/>
+- <https://www.ippc.no/>
+- [Graphical Aviation Forecasts](https://gaf.met.no/#/) fra met.no
+
+
+## Datakilder:
+
+Minst ett av flg MET-apier (obligatorisk):
 
 - Aviationforecast 1.6 - Textual aviation weather forecasts
 - NLAroutes 1.0 - Vertical cross sections for flight routes
 - Sigcharts 1.0 - Significant Weather Charts for aviation
 - Spotwind 1.1 - Spotwind forecasts for airport landing systems
-- Tafmetar 1.0 - Receive Taf/Metar from airports
+- Tafmetar 1.0 - Receive TAF/METAR from airports
 - Turbulence 1.1 - Turbulence prognosis
 - VerticalProfile 1.1 - Vertical weather profiles for aviation
 

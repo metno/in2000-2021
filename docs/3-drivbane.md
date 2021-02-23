@@ -16,28 +16,39 @@ Bruk av drivbanesimuleringer for ting i havet
 Drifty ble bl.a. brukt hefting under Helge Ingstad-forliset. Kan brukers til å lokalisere
 folk i sjøen ved redningsulykker, eller å simulere drivbaner til oljeutslipp eller store skip i havsnød.
 
-Ideer:
+## Ideer:
 
-- mann som faller ut fra oljeplattform, må hentes opp med helikopter som må flys fra land
-- sende ut skip for å begrense oljeutslipp
+1. Berging av arbeider som faller ut fra oljeplattform. Denne må hentes opp med helikopter som flys fra land.
+Eksempel på ressurser som kan brukes:
 
+- Drifty til å simulere hvor søket bør gjøres
+- Locationforecast og Nowcast for å vise vær på steder man søker
+- Routeforecast for å vise værgrafer mellom flyplass og plattform
+
+2. Oljeutslipp fra tankskip. Beregn hvor utslippet vil havne og assister båter å komme tid for opprydding.
+Eksempel på ressurser som kan brukes:
+
+- Drifty til å simulere hvor man forventer utslippet beveger seg
+- Locationforecast og Nowcast for å vise vær på steder man søker
+- Oceanforecast for å vise strøm- og bølgeforhold for navigasjon (fungerer best langs kysten)
 
 Outputformat er enten bilder eller NetCDF-filer. For sistnevnte må man i Kotlin bruke
-et [Java-bibliotek](https://www.unidata.ucar.edu/software/netcdf-java/) fra Unidata.
-Det må testes av IFI at funker under Kotlin.
-Mulig vi kan få til GeoJSON (har dog ikke spesielt god støtte for tid).
+et [Java-bibliotek](https://www.unidata.ucar.edu/software/netcdf-java/) fra Unidata (har ikke testet hvordan dette fungerer sammen med Kotlin).
+Vi jobber også med å få til output i GeoJSON de nærmeste ukene.
 
-Kilder:
+## Datakilder:
 
-- <https://in2000.drifty.met.no/> Basic Auth
-- <https://opendrift.github.io/>
-- Locationforecast, Nowcast, Oceanforecast, MetAlerts, Routeforecast
+- <https://in2000.drifty.met.no/> Drifty testserver
+  - Autentisering med HTTP Basic Auth, send epost til [in2000-help@met.no](mailto:in2000-help@met.no) for passord
+- <https://opendrift.github.io/> - kildekode til Drifty
+- Locationforecast, Nowcast, Oceanforecast, MetAlerts, Routeforecast fra WeatherAPI
 
-Eksempel:
+## Eksempel:
 
-- <https://rest.drifty.met.no/api/simulation/3a33c845-ad4d-4fef-9097-058dc941ddcb/result>
+- Kall: se [kildekode](https://opendrift.github.io/)
+- Resultat: <https://rest.drifty.met.no/api/simulation/3a33c845-ad4d-4fef-9097-058dc941ddcb/result>
 
-Programvare:
+## Programvare for debugging av NetCDF på PC:
 
-- ncdump
-- fimex
+- ncdump (vis data og metadata - se [eksempel](https://docs.api.met.no/doc/thredds))
+- fimex (nedlasting og konvertering)
