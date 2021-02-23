@@ -40,6 +40,7 @@ Vi jobber også med å få til output i GeoJSON de nærmeste ukene.
 
 - <https://in2000.drifty.met.no/> Drifty testserver
   - Autentisering med HTTP Basic Auth, send epost til [in2000-help@met.no](mailto:in2000-help@met.no) for passord
+  - Tilgjengelige objekt- og oljetyper kan finnes i <https://in2000.drifty.met.no/openapi.yaml>
 - <https://opendrift.github.io/> - kildekode til Drifty
 - Locationforecast, Nowcast, Oceanforecast, MetAlerts, Routeforecast fra WeatherAPI
 
