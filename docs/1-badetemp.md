@@ -45,6 +45,8 @@ Sekundære (valgfritt):
 
 - Locationforecast
 - Nowcast
+- [Oslo Kommune](https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser-og-temperaturer/)
+- [Badevann.no](https://badevann.no/)
 
 ## Kontakt
 
