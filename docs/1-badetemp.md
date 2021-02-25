@@ -38,15 +38,15 @@ våren, i tillegg til flere bøyer.
 
 Primære (obligatisk):
 
-- [Havvarsel-Frost](http://havvarsel-frost.met.no) (under oppsetting)
+- [Havvarsel-Frost](http://havvarsel-frost.met.no) (med observasjoner fra [Badevann.no](https://badevann.no/))
 - Oceanforecast (se generelt)
+- Det kan bli lagt inn flere datasett på Havvarsel-Frost-serveren i løpet av semesteret. Da vil vi i så fall oppdatere denne dokumentasjonen.
 
 Sekundære (valgfritt):
 
-- Locationforecast
-- Nowcast
+- Locationforecast (se generelt)
+- Nowcast (se generelt)
 - [Oslo Kommune](https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser-og-temperaturer/)
-- [Badevann.no](https://badevann.no/)
 
 ## Kontakt
 
