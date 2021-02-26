@@ -50,11 +50,11 @@ Sekundære (valgfritt):
 
 ## Eksempler på spørring mot Havvarsel-Frost-server
 
-Disse spørringene er laget interaktivt ved å bruke Swagger-dokumentasjonen for "/api/v1/obs/badevann/get", som er tilgjengelig på http://havvarsel-frost.met.no/docs/apiref#/obs/badevann
+Disse spørringene er laget interaktivt ved å bruke Swagger-dokumentasjonen for "/api/v1/obs/badevann/get", som er tilgjengelig på [http://havvarsel-frost.met.no/docs/apiref#/obs/badevann]
 
 ### Returner alle bøyer som har tidsserier i perioden 2016–2020 (uten observasjoner, kun metadata/informasjon om bøyene)
 
-http://havvarsel-frost.met.no/api/v1/obs/badevann/get?time=2016-01-01T00%3A00%3A00Z%2F2020-12-31T23%3A59%3A59Z&incobs=false&buoyids=%2A&parameters=%2A
+[http://havvarsel-frost.met.no/api/v1/obs/badevann/get?time=2016-01-01T00%3A00%3A00Z%2F2020-12-31T23%3A59%3A59Z&incobs=false&buoyids=%2A&parameters=%2A]
 
 eller med `curl`:
 
@@ -62,7 +62,7 @@ eller med `curl`:
 
 ### Returner alle observasjoner gjort av bøye med ID 2 i perioden 2016–2020 (uten observasjoner, kun metadata/informasjon om bøyene)
 
-http://havvarsel-frost.met.no/api/v1/obs/badevann/get?time=2016-01-01T00%3A00%3A00Z%2F2020-12-31T23%3A59%3A59Z&incobs=true&buoyids=2&parameters=%2A
+[http://havvarsel-frost.met.no/api/v1/obs/badevann/get?time=2016-01-01T00%3A00%3A00Z%2F2020-12-31T23%3A59%3A59Z&incobs=true&buoyids=2&parameters=%2A]
 
 eller med `curl`:
 
