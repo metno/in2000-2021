@@ -13,6 +13,10 @@ Det er ikke nødvendig å bruke proxy for Havvarsel-Frost (case 1).
 
 **NB: IFI-proxyene håndterer ikke `If-Modified-Since`.** Ignorer alt som står om dette i Terms of Service og HOWTO.
 
+## METs åpne datapolitikk
+
+- <https://www.met.no/frie-meteorologiske-data/frie-meteorologiske-data>
+
 ## Locationforecast
 
 Globalt værvarsel i times (Norden neste 60 timer) og 6-timers intervaller.
