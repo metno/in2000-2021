@@ -47,7 +47,7 @@ Vi jobber også med å få til output i GeoJSON de nærmeste ukene.
 ## Eksempel:
 
 - Kall: se [kildekode](https://opendrift.github.io/)
-- Resultat: <https://rest.drifty.met.no/api/simulation/3a33c845-ad4d-4fef-9097-058dc941ddcb/result>
+- Resultat: <https://in2000.drifty.met.no/api/simulation/ccaf8347-a819-438d-aa80-1ec57f6341a4/result>
 
 ## Programvare for debugging av NetCDF på PC:
 
