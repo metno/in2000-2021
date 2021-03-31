@@ -38,7 +38,7 @@ våren, i tillegg til flere bøyer.
 
 Primære (obligatisk):
 
-- [Havvarsel-Frost](http://havvarsel-frost.met.no) (med observasjoner fra [Badevann.no](https://badevann.no/))
+- [Havvarsel-Frost](http://havvarsel-frost.met.no) (med observasjoner fra [Badevann.no](https://badevann.no/) og [Badetassen.no](https://badetassen.no/))
 - Oceanforecast (se generelt)
 - Det kan bli lagt inn flere datasett på Havvarsel-Frost-serveren i løpet av semesteret. Da vil vi i så fall oppdatere denne dokumentasjonen.
 
