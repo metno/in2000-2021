@@ -29,6 +29,7 @@ Dette er en oversikt over ressurser som studentene kan bruke på de forskjellige
 - [Case 6. Åpent case](./6-opencase)
 
 - [Notater fra 2020](./2020)
+- [Presentasjoner](https://uio.zoom.us/j/64891569236)
 
 {% comment %}
 
